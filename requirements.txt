@@ -1,0 +1,2 @@
+easyimagelist
+jupyter_hover_zoom
