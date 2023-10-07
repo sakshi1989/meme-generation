@@ -1,6 +1,6 @@
 contractions==0.1.73
 easyimages==1.91
-easyocr==1.7.1
+easyocr
 fasttext==0.9.2
 fasttext-langdetect==1.0.5
 googletrans==3.1.0a0
