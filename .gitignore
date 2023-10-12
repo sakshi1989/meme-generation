@@ -166,3 +166,5 @@ temp_link/
 models/
 
 .vector_cache/
+
+.DS_Store
