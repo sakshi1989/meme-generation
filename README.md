@@ -1,3 +1,5 @@
+# **Meme Generation**
+
 ### _**Introduction**_
 This project's intention is to create a model for generating funny memes for the image. The model will be trained on the images and their corresponding captions. For every image we have multiple captions from which the model will learn the context of the image.
 The project has been picked from - **[GitHub Repo](https://github.com/alpv95/Dank-Learning).** They scraped the data from **[Meme Generator Website](https://memegenerator.net)** which is not active anymore. So we have used the data which they have stored at [Path](https://github.com/alpv95/Dank-Learning/tree/master/im2txt/memes).
