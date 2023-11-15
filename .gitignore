@@ -171,3 +171,6 @@ models/
 
 translated_captions.json
 preprocessing copy.ipynb
+learnings.txt
+Sakshi/checkpoints_resnet/MemeGenerationResnet.*.pth
+logs_resnet/
