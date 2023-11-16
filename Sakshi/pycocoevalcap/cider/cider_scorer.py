@@ -94,12 +94,12 @@ class CiderScorer(object):
         This will be used to compute idf (inverse document frequency later)
         The term frequency is stored in the object
         :return: None
-        '''
+        '''        
         for refs in self.crefs:
             # refs, k ref captions of one image
             for ngram in set([ngram for ref in refs for (ngram,count) in ref.items()]):
                 self.document_frequency[ngram] += 1
-    
+                    
     def compute_cider(self):
         def counts2vec(cnts):
             """
@@ -179,13 +179,13 @@ class CiderScorer(object):
         return scores
 
     def compute_score(self, option=None, verbose=0):
+        # Changes by Sakshi : When this method is called again, it doubles the count of the references
+        self.document_frequency = defaultdict(float)
         # compute idf
         self.compute_doc_freq()
-        # assert to check document frequency
+        # assert to check document frequency        
         assert(len(self.ctest) >= max(self.document_frequency.values()))
         # compute cider score
-        score = self.compute_cider()
-        # debug
-        # print score
+        score = self.compute_cider()        
         return np.mean(np.array(score)), np.array(score)
     
