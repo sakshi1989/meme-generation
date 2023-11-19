@@ -174,3 +174,9 @@ preprocessing copy.ipynb
 learnings.txt
 Sakshi/checkpoints_resnet/MemeGenerationResnet.*.pth
 logs_resnet/
+
+resnet50_lstm_model_bart.ipynb
+
+checkpoints_inceptionv3/
+
+logs_inceptionv3/
