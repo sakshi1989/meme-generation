@@ -172,11 +172,11 @@ models/
 translated_captions.json
 preprocessing copy.ipynb
 learnings.txt
-Sakshi/checkpoints_resnet/MemeGenerationResnet.e*.pth
+Finalized-Model/checkpoints_resnet/MemeGenerationResnet.e*.pth
 logs_resnet/
 
 resnet50_lstm_model_bart.ipynb
 
-checkpoints_inceptionv3/
+checkpoints_inceptionv3/*.e*.pth
 
 logs_inceptionv3/
