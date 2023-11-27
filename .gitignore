@@ -172,7 +172,7 @@ models/
 translated_captions.json
 preprocessing copy.ipynb
 learnings.txt
-Sakshi/checkpoints_resnet/MemeGenerationResnet.*.pth
+Sakshi/checkpoints_resnet/MemeGenerationResnet.e*.pth
 logs_resnet/
 
 resnet50_lstm_model_bart.ipynb
