@@ -36,6 +36,11 @@ Before cloning the repository, ensure that you have the following prerequisites 
     git lfs pull
     ```
 
+
+> **_NOTE:_**  If the `git lfs pull` fails with the quota error, download the model checkpoints from the following Google Drive links and place them in their specified location:  
+> * Inceptionv3 - https://drive.google.com/file/d/1J4W7MHajN8qROBUOWStM6MOcmOnPprkg/view?usp=drive_link (copy to path /checkpoints_inceptionv3/MemeGenerationInceptionv3)
+> * ResNet50 - https://drive.google.com/file/d/1ws3YdqAxn9paBYvSYR3s9sBFHH1HwdOO/view?usp=sharing (copy to path  /checkpoints_resnet/MemeGenerationResnet)
+
 ### **Seamless Installation of Libraries**
 To have a seamless installation of libraries and proper installation of the cudatoolkit & cudnn, use the conda environment in VS Code. 
 1. Install the [miniconda](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html) 
